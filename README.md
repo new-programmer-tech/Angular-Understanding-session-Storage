@@ -1,19 +1,21 @@
 # Angular-Understanding-session-Storage
 
-```
-To add:-
- sessionStorage.setItem('shareHolder', JSON.stringify(data['name']));
-```
+> ## To Add:-
 
 ```
-TO Remove:-
+sessionStorage.setItem('shareHolder', JSON.stringify(data['name']));
+```
+
+> ## TO Remove:-
+
+```
 sessionStorage.removeItem('name')
 ```
 
-```
-TO get:-
-sessionStorage.getItem('name')
+> ## TO get:-
 
+```
+sessionStorage.getItem('name')
 ```
  
 
