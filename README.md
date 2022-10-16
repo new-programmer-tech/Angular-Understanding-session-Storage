@@ -15,7 +15,9 @@ sessionStorage.removeItem('name')
 > ## TO get:-
 
 ```
-sessionStorage.getItem('name')
+let session = sessionStorage.getItem('name')
+TO CONVERT DATA IN JSON , BECAUSE WHEN WE SAV THE SESSION IT SAVE THE DATA IN STRING FORM IN LOCAL STORAGE OF BROWSER
+let json = JSON.parse(session)
 ```
  
 
